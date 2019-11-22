@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ForumAdmin</string>
+    <string name="result_text_default">trah winou lcode ?</string>
+
+    <string-array name="position">
+        <item>organisateur</item>
+        <item>enseignant</item>
+        <item>invite</item>
+        <item>admin</item>
+        <item>default</item>
+    </string-array>
+
+</resources>
+

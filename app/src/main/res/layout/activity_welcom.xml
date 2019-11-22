@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_login"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:id="@+id/welcom"
+        android:padding="12dp"
+        android:gravity="center"
+        tools:context="com.example.fatma.forumadmin.WelcomActivity">
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="28"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textSize="19sp"/>
+
+
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="#E87825"
+            android:id="@+id/login_error"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:background="#272D7C"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.02"/>
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="Helvetica Neue Light"
+                    android:gravity="center"
+                    android:text="Email"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff" />
+
+                <EditText
+                    android:id="@+id/userEmailLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.68"
+                    android:hint="Your Email"
+                    android:selectAllOnFocus="false"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#999898"
+                    android:background="@drawable/textbox2"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:weightSum="1">
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.02"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    android:fontFamily="Helvetica Neue Light"
+                    android:gravity="center"
+                    android:text="Password"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff" />
+
+                <EditText
+                    android:id="@+id/userPasswordLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.68"
+                    android:hint="Your password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColorHint="#999898"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/textbox2"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"/>
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="0dp"
+                android:layout_gravity="bottom"
+                android:layout_height="match_parent"
+                android:layout_weight="0.37"
+                android:background="@drawable/button_login"
+                android:text="Login"
+                android:textColor="#ffffff"/>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
